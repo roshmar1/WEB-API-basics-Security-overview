@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEB-API.IntegrationTest", "WEB-API.IntegrationTest\WEB-API.IntegrationTest.csproj", "{2FFC81B7-DCF9-4167-9058-56AB4803BF0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB-API", "WEB-API\WEB-API.csproj", "{402041A9-8F62-4C5B-A256-5AF8EA97149B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FFC81B7-DCF9-4167-9058-56AB4803BF0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFC81B7-DCF9-4167-9058-56AB4803BF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFC81B7-DCF9-4167-9058-56AB4803BF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFC81B7-DCF9-4167-9058-56AB4803BF0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{402041A9-8F62-4C5B-A256-5AF8EA97149B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402041A9-8F62-4C5B-A256-5AF8EA97149B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402041A9-8F62-4C5B-A256-5AF8EA97149B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402041A9-8F62-4C5B-A256-5AF8EA97149B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC9020AE-BCDF-4276-A91D-37BB02A5D212}
+	EndGlobalSection
+EndGlobal
