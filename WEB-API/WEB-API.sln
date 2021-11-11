@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEB-API.IntegrationTest", "WEB-API.IntegrationTest\WEB-API.IntegrationTest.csproj", "{2FFC81B7-DCF9-4167-9058-56AB4803BF0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB-API", "WEB-API\WEB-API.csproj", "{402041A9-8F62-4C5B-A256-5AF8EA97149B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEB-API", "WEB-API\WEB-API.csproj", "{402041A9-8F62-4C5B-A256-5AF8EA97149B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1", "..\..\API-basics-Security-overview\EditorLibrary\Task1\Task1.csproj", "{7ED26DE0-9FCE-4FC0-8780-D484487F6D4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{402041A9-8F62-4C5B-A256-5AF8EA97149B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{402041A9-8F62-4C5B-A256-5AF8EA97149B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{402041A9-8F62-4C5B-A256-5AF8EA97149B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED26DE0-9FCE-4FC0-8780-D484487F6D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED26DE0-9FCE-4FC0-8780-D484487F6D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED26DE0-9FCE-4FC0-8780-D484487F6D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED26DE0-9FCE-4FC0-8780-D484487F6D4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
