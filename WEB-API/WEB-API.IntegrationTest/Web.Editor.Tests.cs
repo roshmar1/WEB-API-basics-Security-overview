@@ -1,10 +1,7 @@
 using Microsoft.AspNetCore.Mvc.Testing;
-using Newtonsoft.Json;
 using NUnit.Framework;
 using System.Net.Http;
 using System.Threading.Tasks;
-using System;
-using System.Text;
 using System.IO;
 
 namespace WEB_API.IntegrationTest
@@ -53,7 +50,5 @@ namespace WEB_API.IntegrationTest
 
             HttpResponseMessage response4 = await client.PostAsync("/File/PostFile/MyStorage.txt?searchText=bt&replaceText=at", null);
         }
-
-
     }
 }

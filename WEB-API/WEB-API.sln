@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEB-API.IntegrationTest", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEB-API", "WEB-API\WEB-API.csproj", "{402041A9-8F62-4C5B-A256-5AF8EA97149B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1", "..\..\API-basics-Security-overview\EditorLibrary\Task1\Task1.csproj", "{7ED26DE0-9FCE-4FC0-8780-D484487F6D4C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{402041A9-8F62-4C5B-A256-5AF8EA97149B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{402041A9-8F62-4C5B-A256-5AF8EA97149B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{402041A9-8F62-4C5B-A256-5AF8EA97149B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7ED26DE0-9FCE-4FC0-8780-D484487F6D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7ED26DE0-9FCE-4FC0-8780-D484487F6D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7ED26DE0-9FCE-4FC0-8780-D484487F6D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7ED26DE0-9FCE-4FC0-8780-D484487F6D4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

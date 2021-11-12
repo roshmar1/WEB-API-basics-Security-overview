@@ -1,0 +1,125 @@
+﻿Documentacion WEB-API
+
+This Web App is designed to work with files. You can use it to add files to the 
+storage on the server, change them, and quickly find the information you need in the file.
+
+
+********************************************************
+* The function copies the selected file to the Storage *
+********************************************************
+
+  public IActionResult PutFile(string filename, IFormCollection data);
+	
+	Input: 
+		- Name of File : string filename
+		- File:  IFormCollection file 
+
+	Exeption:
+		- ArgumentNullException
+		- FileNotFoundException
+		- FileLoadException
+
+  Example:
+	
+  // HttpClient is created 
+	HttpClient client = new WebApplicationFactory<Startup>().CreateClient();
+ 	
+  //Creating a container for sent data
+	MultipartFormDataContent multiForm = new MultipartFormDataContent();
+	
+	FileStream fs = File.OpenRead("myFile.txt")); 
+	
+  //Add file Data into container
+        multiForm.Add(new StreamContent(fs), "File", Path.GetFileName("myFile.txt"));
+	
+  /*Put the data on the server by specifying the name of the file to be transferred and 
+    our collection with the file data*/
+	HttpResponseMessage response = await client.PutAsync("/File/PutFile/myFile.txt", multiForm);
+	
+
+**********************************************************************************
+* The function returns an json array that contains the file names in the Storage *
+**********************************************************************************
+
+public IActionResult GetFiels();
+	
+	Return:
+		- Json result array with file names:  string[]
+
+	Exeption:
+		- ArgumentNullException
+		- FileNotFoundException
+		- FileLoadException
+
+  Example:
+	
+  // Create HttpClient
+	HttpClient client = new WebApplicationFactory<Startup>().CreateClient();		
+
+  //Send request for get data from server	
+	HttpResponseMessage response = await client.GetAsync("/File/GetFiles");
+
+  //Serialize HTTP content to a string as an asynchronous operation.
+        var result = await response.Content.ReadAsStringAsync();
+	
+
+***************************************************************************************************************	
+* The function finds the text we are looking for in the file and replaces it with the text we want to replace *
+***************************************************************************************************************
+
+  public IActionResult PostFile(string filename, [FromQuery] string searchText,[FromQuery] string replaceText)
+
+	Input: 
+		- Path of input file: string fileName
+		- Searched text in file: string searchText
+		- Text to replace: string replaceText
+	
+	Return:
+		- Count of replacement: int
+
+	Exeption:
+		- ArgumentNullException
+		- FileNotFoundException
+		- FileLoadException
+  
+   Example:
+
+  // Create HttpClient
+	HttpClient client = new WebApplicationFactory<Startup>().CreateClient();		
+	
+  //Send Request to server for replace some data in file 	
+	HttpResponseMessage response = await client.PostAsync("/File/PostFile/MyStorage.txt?searchText=SomeSearchedText&replaceText=SomeTextToReplace", null);
+  
+  //Serialize HTTP content to a string as an asynchronous operation.
+        var result = await response.Content.ReadAsStringAsync();
+	
+
+*******************************************************************************************
+* The function looks for a paragraph that starts with some text and returns it completely *
+*******************************************************************************************
+
+ public IActionResult GetFile(string filename,[FromQuery] string searchText)
+
+	Input: 
+		- Name of file: string fileName
+		- Еhe text from which the paragraph begins: string searchText
+	
+	Return:
+		- Json result array with file names:  string[]
+
+	Exeption:
+		- ArgumentNullException
+		- FileNotFoundException
+		- FileLoadException
+  
+  Example:
+
+
+  // Create HttpClient
+	HttpClient client = new WebApplicationFactory<Startup>().CreateClient();		
+	
+  //Send Request to server for get some data from file 
+	HttpResponseMessage response = await client.GetAsync("/File/GetFile/MyStorage.txt?searchText=SomeText");
+
+  //Serialize HTTP content to a string as an asynchronous operation.
+        var result = await response.Content.ReadAsStringAsync();

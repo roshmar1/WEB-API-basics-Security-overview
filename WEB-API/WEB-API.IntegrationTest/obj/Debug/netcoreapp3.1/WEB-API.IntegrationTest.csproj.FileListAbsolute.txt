@@ -385,9 +385,6 @@ C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API.
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API.IntegrationTest\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API.IntegrationTest\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API.IntegrationTest\bin\Debug\netcoreapp3.1\WEB-API.exe
-C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API.IntegrationTest\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
-C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API.IntegrationTest\bin\Debug\netcoreapp3.1\System.Web.Http.dll
-C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API.IntegrationTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API.IntegrationTest\bin\Debug\netcoreapp3.1\WEB-API.dll
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API.IntegrationTest\bin\Debug\netcoreapp3.1\Task1.dll
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API.IntegrationTest\bin\Debug\netcoreapp3.1\WEB-API.pdb

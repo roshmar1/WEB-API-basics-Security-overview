@@ -6,12 +6,9 @@ C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API\
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API\bin\Debug\netcoreapp3.1\WEB-API.runtimeconfig.dev.json
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API\bin\Debug\netcoreapp3.1\WEB-API.dll
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API\bin\Debug\netcoreapp3.1\WEB-API.pdb
-C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
-C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API\bin\Debug\netcoreapp3.1\System.Web.Http.dll
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API\bin\Debug\netcoreapp3.1\Task1.dll
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API\bin\Debug\netcoreapp3.1\Task1.pdb
 C:\Users\martin.roshko\Desktop\WEB-API-basics-Security-overview\WEB-API\WEB-API\obj\Debug\netcoreapp3.1\WEB-API.csproj.AssemblyReference.cache
